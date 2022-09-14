@@ -6,7 +6,7 @@
   }
 
   form {
-    @apply dark:bg-white dark:text-black px-7 py-5 w-full;
+    @apply dark:bg-white dark:text-black bg-black text-white px-7 py-5 w-full;
   }
 
   .input {
@@ -16,7 +16,7 @@
       @apply text-red-500;
     }
     input, textarea {
-      @apply border border-black border-[1.5px] rounded-md px-3 py-2
+      @apply dark:bg-white dark:text-black bg-black text-white border dark:border-black border-[1.5px] rounded-md px-3 py-2
     }
     textarea {
       height: 8rem;

@@ -36,9 +36,14 @@ export default function Home() {
           <Card cta={{text: "Get in touch", href: "#contact"}} text="I work together with you to make sure you are happy with the design and experience."/>
         </div>
       </HalfGrid>
-      <section id="technologies" className="full-width-section flex flex-col items-center gap-10">
+      <section id="technologies" className="full-width-section flex flex-col items-center gap-10 bg-white dark:bg-black">
         <span className="text-3xl font-extrabold">Your Favourite Industry Standard Technologies</span>
-        <Image src="/icons.png" alt="" width={800} height={50}/>
+        <div className="hidden dark:visible">
+        <Image  src="/icons.png" alt="" width={800} height={50}/>
+        </div>
+        <div className="visible dark:hidden">
+        <Image  src="/icons-black.png" alt="" width={800} height={50}/>
+        </div>
       </section>
       <Contact/>
     </Layout>
