@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
@@ -12,6 +13,9 @@ export default function Home() {
 
 	return (
     <Layout>
+      <Head>
+        <title>Josh Grimmett Web Developer</title>
+      </Head>
       <Hero navbar={navbar}></Hero>
       <div id="about"></div>
       <HalfGrid>
