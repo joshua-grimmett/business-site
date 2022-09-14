@@ -1,0 +1,14 @@
+.navbar {
+  @apply 
+    flex
+    justify-between
+    w-full
+    items-center
+}
+
+.navbar .links {
+  @apply 
+    flex
+    flex-row
+    gap-2 
+}

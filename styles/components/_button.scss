@@ -1,0 +1,25 @@
+.button > button {
+  @apply
+    px-10
+    py-3
+    uppercase
+    font-bold
+    text-xl;
+  font-family: $secondary-font;
+}
+
+.primary-button {
+  @apply
+    dark:bg-white
+    dark:text-black
+    bg-black
+    text-white
+}
+
+.button-alt {
+  @apply
+    dark:bg-black
+    dark:text-white
+    bg-white
+    text-black;
+}

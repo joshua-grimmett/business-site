@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './base/fonts';
+@import './components/hero';
+@import './components/navbar';
+@import './components/button';
+@import './components/card';
+@import './components/grid';
+@import './components/contact';
+@import './components/footer';
+
+body {
+  @apply dark:bg-black;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,43 @@
+.hero {
+  @apply 
+    bg-white
+    text-black
+    dark:text-white 
+    dark:bg-black 
+    h-screen
+    container
+    mx-auto
+    px-7
+    py-5;
+  font-family: $primary-font;
+
+  .logo {
+    @apply
+      font-bold
+  }
+
+  .hero-content {
+    @apply
+      flex
+      flex-col
+      justify-center
+      h-full
+      w-full
+      max-w-xl
+      mx-auto
+      text-center
+      gap-10
+  }
+
+  b {
+    background: linear-gradient(90deg, rgba(0,140,255,1) 0%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  }
+
+  .hero-heading {
+    @apply
+      text-5xl
+  }
+}

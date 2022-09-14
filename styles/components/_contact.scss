@@ -1,0 +1,25 @@
+.contact {
+  @apply dark:bg-white flex flex-col items-center py-12;
+
+  .form-grid {
+    @apply grid md:grid-cols-2 items-center gap-5 py-[1.25rem];
+  }
+
+  form {
+    @apply dark:bg-white dark:text-black px-7 py-5 w-full;
+  }
+
+  .input {
+    @apply flex flex-col gap-2;
+    label::after {
+      content: '*';
+      @apply text-red-500;
+    }
+    input, textarea {
+      @apply border border-black border-[1.5px] rounded-md px-3 py-2
+    }
+    textarea {
+      height: 8rem;
+    }
+  }
+}
