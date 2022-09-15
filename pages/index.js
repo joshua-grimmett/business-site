@@ -38,11 +38,11 @@ export default function Home() {
       </HalfGrid>
       <section id="technologies" className="full-width-section flex flex-col items-center gap-10 bg-white dark:bg-black">
         <span className="text-3xl font-extrabold">Your Favourite Industry Standard Technologies</span>
-        <div className="hidden dark:visible">
-        <Image  src="/icons.png" alt="" width={800} height={50}/>
+        <div className="dark:block hidden">
+          <Image src="/icons.png" alt="" width={800} height={50}/>
         </div>
-        <div className="visible dark:hidden">
-        <Image  src="/icons-black.png" alt="" width={800} height={50}/>
+        <div className="block dark:hidden">
+          <Image src="/icons-black.png" alt="" width={800} height={50}/>
         </div>
       </section>
       <Contact/>

@@ -1,5 +1,5 @@
 .contact {
-  @apply dark:bg-white flex flex-col items-center py-12;
+  @apply dark:bg-white bg-black dark:text-black text-white flex flex-col items-center py-12;
 
   .form-grid {
     @apply grid md:grid-cols-2 items-center gap-5 py-[1.25rem];

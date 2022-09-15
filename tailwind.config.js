@@ -9,7 +9,7 @@ module.exports = {
       backgroundImage: ["dark"],
     }
   },
-  darkMode: "class",
+  // darkMode: "class",
   theme: {
     container: {
       center: true,

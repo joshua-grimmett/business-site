@@ -14,7 +14,7 @@
 
 .half-grid {
   height: 40rem;
-  @apply dark:bg-white dark:text-black py-5 bg-black bg-plus-dark text-white;
+  @apply dark:bg-white dark:bg-plus-light dark:text-black py-5 bg-black bg-plus-dark text-white;
 
   .image {
     @apply bg-contain bg-no-repeat bg-center max-w-md mx-auto w-full h-full min-h-[200px]
